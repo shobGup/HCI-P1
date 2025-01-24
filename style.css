@@ -10,28 +10,28 @@ body {
 .catchphrase {
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 24px;
+    font-size: 2.8vh;
     color: #DE5B9E;
 }
 
 .image-col {
-    padding: 5px;
+    padding: .6vh;
 }
 
 .menu-image {
     width: 100%;
     aspect-ratio: 1;
-    border-radius: 10px;
+    border-radius: 1.2vh;
     object-fit: cover;
 }
 
 .info-col {
-    padding: 5px;
+    padding: 0.6vh;
 }
 
 .menu-item {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,38 +39,42 @@ body {
 
 .food-name {
     text-align: left;
-    font-size: 16px;
+    font-size: 1.8vh;
     font-weight: bold;
-    padding: 2.5px 5px;
+    padding: 0.3vh 0.6vh;
 }
 
 .food-description {
     text-align: left;
-    font-size: 12px;
-    padding: 2.5px 5px;
+    font-size: 1.4vh;
+    padding: 0.3vh 0.6vh;
+    font-weight: lighter;
 }
 
 .price-button-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 1.4vh;
+    text-align: left;
+    padding: 0.3vh 0.6vh;
 }
 
 .add-button {
     height: 3vh;
-    width: 15vw;
-    padding: 2px;
+    width: 10vw;
+    padding: 0.2vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 1.2vh;
     background-color: #f396c6;
 }
 
 #uniqueColorText {
     color: #005EA6;
     font-family: 'Brush Script MT';
-    font-size: 20px;
+    font-size: 2.4vh;
 }
 
 #logo {
