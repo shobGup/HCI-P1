@@ -3,9 +3,12 @@ body {
     background-color: rgb(255, 255, 224);
 }
 
+.text-container {
+    margin: 5vh;
+}
+
 .catchphrase {
     text-align: center;
-    margin: 10px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     color: #DE5B9E;
@@ -22,10 +25,16 @@ body {
     margin-right: auto;
     display: block;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .info-col {
     padding: 5px;
+}
+
+.menu-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .food-name {
@@ -47,7 +56,7 @@ body {
     justify-content: space-between;
 }
 
-.add {
+.add-button {
     height: 24px;
     width: 60px;
     padding: 2px;
@@ -65,10 +74,10 @@ body {
 }
 
 #logo {
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 12.5vh;
+    height: 12.5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     margin-left: auto;
     margin-right: auto;
     display: block;
